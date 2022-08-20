@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Noto Sans JP';
+    background: beige;
+}
+.info {
+    margin-bottom: 20px;
+    color: #111;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text p {
+    font-style: italic;
+}
+.form-row {
+    margin-bottom: 10px;
+}
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50% - 20px);
+}
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: rgb(56, 52, 17);
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: #111;
+    font-family: inherit;
+    outline: none;
+    padding: 10px 0 15px;
+}
+.card-hobby {
+    margin-top: 15px;
+    border:1px solid tan;
+    margin-bottom: 20px;
+    background-color: navajowhite;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.card-work {
+    border:1px solid greenyellow;
+    margin-bottom: 20px;
+    background:gainsboro;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.form {
+    border:4px solid firebrick;
+    background-color: lightsalmon;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 6px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+.avatar {
+    width: 232px;
+    border-radius: 15px;
+    box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.25);
+}
+a {
+    transition: all .2s;
+    color: #111;
+    text-decoration: none;
+    font-family: inherit;
+}
+a:hover {
+    font-size: 21px;
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color: aqua;
+}
+.btn {
+    background: #111;
+    color: tan;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: cadetblue;
+    color: crimson;
+}
+.btn:active {
+    background: gainsboro;
+}
+.table {
+    width: 100%;
+    border: 1px solid black;
+}
+.table td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+.table th {
+    border: 1px solid black;
+    background: wheat;
+}
+.table tr:nth-child(odd) {
+    background: grey;
+}
+.table td:hover {
+    background: tan;
+}
+.list {
+    padding: 0 20px;
+}
+.list li{
+    list-style-position: inside;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+.form h2 {
+    text-align: center;
+}
+
+@media (max-width:700px) {
+    .container{
+        text-align: center;
+        font-size: small;
+        padding: 10px;
+    }
+}
